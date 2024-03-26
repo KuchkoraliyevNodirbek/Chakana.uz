@@ -1,0 +1,50 @@
+.connect0{
+    padding-top: 100px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    
+    h1{
+        font-size: 30px;
+        color: black;
+    }
+    .connect1{
+        display: flex;
+        flex-direction:column;
+       
+        a{
+    color:gray;
+    text-decoration: none;
+    font-size: 20px;
+   
+    flex-direction:column;
+    padding-bottom: 20px;
+        }
+    }
+    .connect2{
+        display: flex;
+        flex-direction:column;
+        a{
+            color:gray;
+            text-decoration: none;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+    }
+    .connect{
+        h1{
+            color: black;
+            
+        }
+        h5{
+            color:rgb(54, 52, 52);
+            padding: 10px 15px;
+        }
+        p{
+            color:rgb(71, 69, 69);
+        }
+    }
+    .foto_logo{
+        display: flex;
+    }
+}

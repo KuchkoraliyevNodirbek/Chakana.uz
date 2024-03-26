@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    
+    
+}
+.title{ 
+   //border: 1px solid rgb(230, 218, 218);
+   border-radius: 15px;
+    display:flex;
+   justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    .logo{
+        display: flex;
+    
+    align-items: center; 
+    h1{
+        color: black;
+        font-size: 50px;
+        padding-left: 15px;
+    }
+    }
+    .btn{
+       
+       height: 30px;
+        button{
+            border: 1px solid #e31e24;
+            display: flex;
+            background-color: white;
+            padding: 15px;
+            border-radius: 12px;
+            margin-right: 12px;
+            font-size: 15px;
+            color: #e31e24;
+          
+            &:hover{
+                    background-color: red;
+                    color: white;
+
+            }
+         }
+       
+    }
+    .find{
+        display: flex;
+        padding: 15px 5px;
+           border: 1px solid grey;
+          background-color: white;
+        border-radius: 12px;
+       
+        input{
+            border: none;
+           outline: none;
+           background: none;
+           
+            
+        }
+    }
+.di_left{
+    
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    //border: 1px solid gray;
+    gap: 10px;
+    //border-radius: 10px;
+}
+    .language{
+        
+        padding: 10px 10px;
+        //border: 1px solid #e31e24;
+    display: flex;
+  
+        img{
+            border: none;
+            outline: none;
+            width:40px;
+        }
+        select{
+           border: none;
+            outline: none;
+            width: 15px;
+           
+        }
+    }
+    .korzinka{
+       
+        padding: 10px 10px;
+       
+    }
+    .like{
+      
+        padding: 10px 10px;
+       
+    }
+    .login{
+       
+        //padding: 10px 10px;
+        margin: 10px 10px;
+        
+    }
+    
+}

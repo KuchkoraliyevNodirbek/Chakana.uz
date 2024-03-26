@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.product{
+    h1{
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        color: rgb(36, 34, 34);
+    }
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    align-items: center;
+    gap: 22px;
+   
+   
+   
+}
+.technologiya{
+    background-color:#ECEEF4;
+    border-radius: 10px;
+    padding: 60px 0;
+   
+    text-align: center;
+    max-height: 150px;
+   
+    a{
+        display: inline-block;
+        color: black;
+        text-decoration: none;
+        color: gray;
+        font-size: 17px;
+        
+       
+      
+        
+    }
+    img{
+       
+    }
+  
+    
+}

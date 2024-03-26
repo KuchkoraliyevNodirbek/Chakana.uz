@@ -1,0 +1,64 @@
+.buy{
+    padding-top: 80px;
+    padding-left: 10px;
+    ._buy{
+        display: flex;
+    }
+    h1{
+        color: black;
+        font-size: 50px;
+       
+    }
+    .buy1{
+        padding-top: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        .product_buy{
+            text-align: center;
+            p{
+                color: red;
+                padding: 10px 0;
+            }
+        }
+        padding-top: 50px;
+        img{
+            width: 200px;
+        }
+
+    } .product_buy_right{
+        
+        transition: 1s ease;
+        //seknlawtradi
+        &:hover{
+            transform: translateY(-20px);
+            //tepaga chiqaradi
+        }
+        color: rgb(181, 194, 206);
+        background-color: grey;
+        border-radius: 10px;
+        h2{ color: white;
+            text-align:center;
+            font-size: 40px;
+        }
+        h1{color: white;
+            font-size: 35px;
+           
+        }
+        .foto_samsung{
+            padding: 10px 65px;
+            padding-bottom: 40px;
+        }
+    }
+    .title_buy_right{
+        display: flex;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        img{
+            width: 50px;
+            height: 50px;
+        
+        }
+        
+    }
+   
+}

@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.title {
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title .logo {
+  display: flex;
+  align-items: center;
+}
+.title .logo h1 {
+  color: black;
+  font-size: 50px;
+  padding-left: 15px;
+}
+.title .btn {
+  height: 30px;
+}
+.title .btn button {
+  border: 1px solid #e31e24;
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  border-radius: 12px;
+  margin-right: 12px;
+  font-size: 15px;
+  color: #e31e24;
+}
+.title .btn button:hover {
+  background-color: red;
+  color: white;
+}
+.title .find {
+  display: flex;
+  padding: 15px 5px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 12px;
+}
+.title .find input {
+  border: none;
+  outline: none;
+  background: none;
+}
+.title .di_left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.title .language {
+  padding: 10px 10px;
+  display: flex;
+}
+.title .language img {
+  border: none;
+  outline: none;
+  width: 40px;
+}
+.title .language select {
+  border: none;
+  outline: none;
+  width: 15px;
+}
+.title .korzinka {
+  padding: 10px 10px;
+}
+.title .like {
+  padding: 10px 10px;
+}
+.title .login {
+  margin: 10px 10px;
+}
+
+.catalok {
+  border: 1px solid rgb(230, 218, 218);
+  border-radius: 15px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  margin-bottom: 2 0px;
+}
+.catalok a {
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+.catalok a:hover {
+  color: red;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.product h1 {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: rgb(36, 34, 34);
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  align-items: center;
+  gap: 22px;
+}
+
+.technologiya {
+  background-color: #ECEEF4;
+  border-radius: 10px;
+  padding: 60px 0;
+  text-align: center;
+  max-height: 150px;
+}
+.technologiya a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  color: gray;
+  font-size: 17px;
+}
+.buy {
+  padding-top: 80px;
+  padding-left: 10px;
+}
+.buy ._buy {
+  display: flex;
+}
+.buy h1 {
+  color: black;
+  font-size: 50px;
+}
+.buy .buy1 {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 50px;
+}
+.buy .buy1 .product_buy {
+  text-align: center;
+}
+.buy .buy1 .product_buy p {
+  color: red;
+  padding: 10px 0;
+}
+.buy .buy1 img {
+  width: 200px;
+}
+.buy .product_buy_right {
+  transition: 1s ease;
+  color: rgb(181, 194, 206);
+  background-color: grey;
+  border-radius: 10px;
+}
+.buy .product_buy_right:hover {
+  transform: translateY(-20px);
+}
+.buy .product_buy_right h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+.buy .product_buy_right h1 {
+  color: white;
+  font-size: 35px;
+}
+.buy .product_buy_right .foto_samsung {
+  padding: 10px 65px;
+  padding-bottom: 40px;
+}
+.buy .title_buy_right {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.buy .title_buy_right img {
+  width: 50px;
+  height: 50px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(56, 54, 54);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.product_buy {
+  max-width: 220px;
+  text-align: left;
+}
+.connect0 {
+  padding-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.connect0 h1 {
+  font-size: 30px;
+  color: black;
+}
+.connect0 .connect1 {
+  display: flex;
+  flex-direction: column;
+}
+.connect0 .connect1 a {
+  color: gray;
+  text-decoration: none;
+  font-size: 20px;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.connect0 .connect2 {
+  display: flex;
+  flex-direction: column;
+}
+.connect0 .connect2 a {
+  color: gray;
+  text-decoration: none;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.connect0 .connect h1 {
+  color: black;
+}
+.connect0 .connect h5 {
+  color: rgb(54, 52, 52);
+  padding: 10px 15px;
+}
+.connect0 .connect p {
+  color: rgb(71, 69, 69);
+}
+.connect0 .foto_logo {
+  display: flex;
+}
+
+.boottom_swipe {
+  padding-top: 150px;
+}
+
+* {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}/*# sourceMappingURL=style.css.map */
